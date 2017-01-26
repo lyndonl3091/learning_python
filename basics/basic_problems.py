@@ -74,4 +74,7 @@ print(max_number(15, 4))
 def max_of_3(num1, num2, num3):
     return max_number(max_number(num1, num2), num3)
 
+def using_max(num1, num2, num3):
+    return max(num1, num2, num3)
+
 print(max_of_3(3, 5, 7))
